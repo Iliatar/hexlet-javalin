@@ -10,6 +10,9 @@
         <title>Hexlet Javalin Example</title>
     </head>
     <body>
+        <header>
+            <a href="/courses">К списку курсов</a>
+        </header>
         <div>${content}</div>
     </body>
     <footer>

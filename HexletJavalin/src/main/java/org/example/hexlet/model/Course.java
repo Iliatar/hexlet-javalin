@@ -6,13 +6,15 @@ public final class Course {
 
         private String name;
         private String description;
+        private double price;
 
-        public Course(Long id, String name, String description) {
-            this.id = id;
+        public Course(String name, String description, double price) {
             this.name = name;
             this.description = description;
+            this.price = price;
         }
 
+        public void setId (Long id) { this.id = id; }
         public String getName() { return name; }
         public String getDescription() { return description; }
         public Long getId() { return id; }
